@@ -11,6 +11,7 @@ public class Program {
         students.add(new Student("Test2", 88.0));
         students.add(new Student("Test3", 50.0));
         Student student1 = new Student("Test4", 60.0);
+
         System.out.println("List of students: ");
         printStudents(students);
         System.out.println("Top student");
@@ -87,6 +88,8 @@ class Student implements Comparable<Student> {
 
     private String name;
     private double grade;
+
+
 
     public double getGrade() {
         return grade;

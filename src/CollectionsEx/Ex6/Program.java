@@ -19,5 +19,4 @@ abstract class AbstractLibraryItem implements Comparable<LibraryItem> {
     private String identifier;
 
 
-
 }

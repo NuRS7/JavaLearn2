@@ -1,4 +1,4 @@
-package OOP1;
+package OOP1.Ex2;
 
 public class Progran {
     public static void main(String[] args) {
